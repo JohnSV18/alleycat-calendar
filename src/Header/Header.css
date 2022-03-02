@@ -1,0 +1,22 @@
+@font-face {
+  src: url(./fonts/PermanentMarker-Regular.ttf);
+  font-family: 'Permanent Marker';
+}
+
+.Header {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 1em;
+    margin-bottom: 1em;
+    font-size: 25px;
+    font-family: 'Permanent Marker';
+    background-color:black;
+    color: #fff;
+  }
+
+.Header-Subtitle {
+  color: rgb(122, 13, 13);
+}
