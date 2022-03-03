@@ -1,0 +1,9 @@
+.RaceSpace {
+    width: 100%;
+    text-align: center;
+}
+
+.RaceSpace > img {
+    width: 60%;
+    height: auto;
+}
