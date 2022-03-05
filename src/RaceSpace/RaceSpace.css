@@ -1,9 +1,33 @@
 .RaceSpace {
     width: 100%;
     text-align: center;
+    position: relative;
 }
 
 .RaceSpace > img {
     width: 60%;
     height: auto;
+}
+.RaceSpace .RaceSpace-title {
+    text-decoration: none;
+    color: #000;
+}
+
+.RaceSpace h1 {
+    display: flex;
+    justify-content: center;
+    top: 0;
+    font-size: 30px;
+    font-family: 'Permanent Marker';
+    font-weight: lighter;
+    background-color: rgba(224, 143, 133, 0.75);
+    padding: 0.3rem;
+    text-align: left;
+}
+.RaceFacts {
+    top: 0;
+    font-size: 20px;
+    color: white;
+    padding: 0.3rem;
+    text-align: left;
 }

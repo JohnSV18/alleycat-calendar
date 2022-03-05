@@ -1,0 +1,10 @@
+.AboutUs {
+    color: white;
+}
+.AboutUs h2{
+    font-family: 'Permanent Marker';
+}
+.AboutUs p{
+    font-weight: lighter;
+    font-size: 30px;
+}

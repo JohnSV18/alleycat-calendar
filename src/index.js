@@ -1,13 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import PastRacesList from './PastRacesList/PastRacesList';
+import AboutUs from './AboutUs/AboutUs';
+import AlleycatDetails from './AlleycatDetails/AlleycatDetails';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Router>
+    <Routes>
+      <Route path="/" element={<App />}>
+        <Route path="past-races" element={<PastRacesList />} />
+        <Route path="/" element={<AboutUs />} />
+        <Route path="/past-races/:id" element={<AlleycatDetails />} />
+      </Route>
+    </Routes>
+  </Router>,
   document.getElementById('root')
 );
 
