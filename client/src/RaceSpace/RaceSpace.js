@@ -7,17 +7,18 @@ function RaceSpace(props) {
     return (
         <div className="RaceSpace">
             <h1>
-                <Link className='RaceSpace-title' to={`/past-races/${id}`}>
+                <Link className='RaceSpace-title' to={`/race/${id}`}>
                     {title}
                 </Link>
             </h1>
-            <Link to={`/past-races/${id}`}>
+            <Link to={`/race/${id}`}>
                 <img src={`${process.env.PUBLIC_URL}/images/${image}`} width="300" height="300" alt="hello" />
             </Link>
             <div className='RaceFacts'>
                 <p>{description}</p>
                 <p>Date: {date}</p>
                 <p>Location: {location}</p>
+                <p>Id: {id}</p>
             </div>
         </div>
     )

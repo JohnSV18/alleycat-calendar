@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/alleycat-calendar/static/css/main.fc70ef80.css",
+    "main.js": "/alleycat-calendar/static/js/main.d6934337.js",
+    "static/js/787.7feb3091.chunk.js": "/alleycat-calendar/static/js/787.7feb3091.chunk.js",
+    "static/media/PermanentMarker-Regular.ttf": "/alleycat-calendar/static/media/PermanentMarker-Regular.109a10dca0508e41aa12.ttf",
+    "index.html": "/alleycat-calendar/index.html",
+    "main.fc70ef80.css.map": "/alleycat-calendar/static/css/main.fc70ef80.css.map",
+    "main.d6934337.js.map": "/alleycat-calendar/static/js/main.d6934337.js.map",
+    "787.7feb3091.chunk.js.map": "/alleycat-calendar/static/js/787.7feb3091.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc70ef80.css",
+    "static/js/main.d6934337.js"
+  ]
+}

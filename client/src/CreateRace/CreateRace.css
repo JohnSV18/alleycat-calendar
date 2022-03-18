@@ -1,0 +1,36 @@
+
+.CreateRace {
+    font-family: 'Permanent Marker';
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: rgba(224, 143, 133, 0.75);
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto; 
+}
+.race-title input {
+   height: 25px;
+   margin-left: 15px;
+   margin-bottom: 10px;
+}
+.race-description input {
+    height: 25px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.race-location input {
+    height: 25px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.RaceButton {
+    background-color: rgb(122, 13, 13);
+    font-family: 'Permanent Marker';
+    border: none;
+    color: white;
+    padding: 10px 27px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}

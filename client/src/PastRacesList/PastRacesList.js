@@ -3,12 +3,12 @@ import './PastRacesList.css';
 import data from '../alleycat-data.json'
 
 function PastRacesList() {
-    const spaces = data.map((obj,i) => {
-        const { title, description, date, location, images } = obj 
+    const spaces = data.map((obj) => {
+        const { title, description, date, location, images, id } = obj 
         return (
             <RaceSpace
-                id={i}
-                key={title}
+                id={id}
+                key={id}
                 title={title}
                 description={description}
                 date={date}
