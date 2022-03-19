@@ -1,0 +1,10 @@
+.login-form {
+    font-family: 'Permanent Marker';
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: rgba(224, 143, 133, 0.75);
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto; 
+}

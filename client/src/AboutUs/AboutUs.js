@@ -3,6 +3,9 @@ function AboutUs() {
     return (
         <div className="AboutUs">
             <h2>About Us</h2>
+            <div>
+              <img src={`${process.env.PUBLIC_URL}/images/alleycatexample.jpg`} width="500" height="500" alt="hello" />
+            </div>
             <p>Alleycat Calendar is the unofficial online Calendar of
               alleycat races that go on throughout the world. Take a look
               for any upcoming races around you.</p>

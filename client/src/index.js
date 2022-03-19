@@ -4,9 +4,6 @@ import { BrowserRouter } from 'react-router-dom'
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import PastRacesList from './PastRacesList/PastRacesList';
-import AboutUs from './AboutUs/AboutUs';
-import AlleycatDetails from './AlleycatDetails/AlleycatDetails';
 
 ReactDOM.render(
   <BrowserRouter>

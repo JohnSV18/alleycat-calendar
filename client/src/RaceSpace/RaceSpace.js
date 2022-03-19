@@ -16,9 +16,8 @@ function RaceSpace(props) {
             </Link>
             <div className='RaceFacts'>
                 <p>{description}</p>
-                <p>Date: {date}</p>
+                <p>Date Created: {date}</p>
                 <p>Location: {location}</p>
-                <p>Id: {id}</p>
             </div>
         </div>
     )
